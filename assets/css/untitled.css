@@ -1,0 +1,143 @@
+@media (min-width: 300px) {
+  form > h5 {
+    font-size: 1.7em;
+  }
+}
+
+@media (min-width: 300px) {
+  form {
+    padding: 30px;
+  }
+}
+
+.text-center {
+  color: #3C7DFF;
+  font-size: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+.sidenav {
+  height: 40%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin-left: 25%;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #177bf6;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+html, body {
+  width: 100%;
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.text-center {
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /*height: 60px;*/
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.col-md-4 {
+}
+
+.button {
+  background: linear-gradient(180deg, #3C7DFF 0%, #160523 84.9%, #000000 100%);
+  margin: 20px;
+}
+
+a {
+  color: white;
+  font-weight: 500;
+}
+
+.footer {
+  bottom: 0;
+  margin-bottom: -20px;
+}
+
+@media (min-width: 300px) {
+  [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    background: linear-gradient(180deg, #3C7DFF 0%, #160523 84.9%, #000000 100%);
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+  }
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  background: linear-gradient(180deg, #3C7DFF 0%, #160523 84.9%, #000000 100%);
+  width: 70%;
+  height: 100%;
+  /*padding: 10px;*/
+}
+
+@media (min-width: 300px) {
+  .col-md-4.col-xl-4 {
+    /*padding: 20px;*/
+    /*margin: 40px;*/
+  }
+}
+
+.col-md-4.col-xl-4 {
+  padding: 20px;
+  /*margin: 40px;*/
+}
+
+.page-container {
+  background-repeat: no-repeat;
+  background-position: center;
+  /*width: 100%;*/
+  /*height: 100%;*/
+  background-size: cover;
+}
+
+@media (min-width: 300px) {
+  .row.text-center {
+    width: 100%;
+  }
+}
+
+.btn-group {
+  padding: 10px;
+  width: 100%;
+}
+
